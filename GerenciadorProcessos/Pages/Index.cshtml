@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Gerenciador de Processos";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4">Bem-vindo ao Gerenciador de Processos</h1>
+        <p class="lead">Organize, acompanhe e otimize seus processos com facilidade.</p>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">📁 Meus Processos</h5>
+                    <p class="card-text">Visualize e gerencie os processos cadastrados.</p>
+                    <a href="/Processos" class="btn btn-primary">Acessar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">➕ Novo Processo</h5>
+                    <p class="card-text">Crie um novo processo com todos os detalhes necessários.</p>
+                    <a href="/Processos/Create" class="btn btn-success">Cadastrar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">📊 Relatórios</h5>
+                    <p class="card-text">Acompanhe o andamento e as métricas dos processos.</p>
+                    <a href="/Relatorios" class="btn btn-info">Ver Relatórios</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <small class="text-muted">Desenvolvido com ASP.NET Core · @DateTime.Now.Year</small>
+    </div>
+</div>
