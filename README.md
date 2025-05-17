@@ -1,9 +1,11 @@
 # GerenciadorProcessos
 ---
 Integrantes que fizeram o trabalho:
+
 José Ricardo Cavalcante Junior
+
 André Vinícius Monteiro
----
+
 
 # 🧾 Projeto com SQL Server via Docker
 
