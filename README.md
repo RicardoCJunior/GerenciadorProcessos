@@ -6,6 +6,18 @@ José Ricardo Cavalcante Junior
 
 André Vinícius Monteiro
 
+Lucas Insaurralde de Godoi
+
+Nicolas Filismino de Melo
+
+Matheus Rodrigues da Silva
+
+Sara Alves Oliveira
+
+Tácio de Paulo
+
+Francisco Ferreira do Nascimento Neto
+
 
 # 🧾 Projeto com SQL Server via Docker
 
